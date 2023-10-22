@@ -21,13 +21,10 @@ Route::get('/', function () {
 Route::resource('albums', AlbumController::class);
 
 //Route::get('/albums', [AlbumController::class, 'index']);
-//Route::get('/albums/{id}', [AlbumController::class, 'show']);
 //Route::get('/albums/create', [AlbumController::class, 'create']);
 //Route::post('/albums', [AlbumController::class, 'store']);
 //Route::get('/albums/{id}/edit', [AlbumController::class, 'edit']);
 //Route::put('/albums/{id}', [AlbumController::class, 'update']);
 //Route::delete('/albums/{id}', [AlbumController::class, 'destroy']);
-//Route::get('/albums/{id}/confirm-delete', [AlbumController::class, 'confirmDelete']);
-//Route::delete('/albums/{id}/confirmed', [AlbumController::class, 'confirmedDelete']);
 
 
